@@ -5,17 +5,21 @@ body {
 }
 
 h1 {
+    color: #66BFBF;
     font-size: 5.652rem;
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
 }
 
 h2 {
+    color: #66BFBF;
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
+    font-weight: normal;
 }
 
 h3 {
+    color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -53,4 +57,8 @@ h3 {
 .skill-image {
     height: 100px;
     width: 100px;
+}
+
+.footer-link {
+    color: #11999E;
 }
