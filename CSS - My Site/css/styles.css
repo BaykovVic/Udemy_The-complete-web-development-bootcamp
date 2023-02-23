@@ -50,15 +50,24 @@ h3 {
 }
 
 .profile-image {
-    height: 100px;
-    width: 100px;
+    height: 25%;
+    width: 25%;
 }
 
 .skill-image {
-    height: 100px;
-    width: 100px;
+    float: left;
+    height: 25%;
+    margin-right: 30px;
+    width: 25%;
 }
 
 .footer-link {
     color: #11999E;
+}
+
+.skill-row {
+    width: 50%;
+    line-height: 2;
+    margin: 100px auto 100px auto;
+    text-align: left;
 }
