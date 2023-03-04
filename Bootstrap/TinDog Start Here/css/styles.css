@@ -12,6 +12,7 @@ p {
 }
 
 /*Headings*/
+
 .big-heading {
     font-weight: 900;
     font-size: 3.5rem;
@@ -23,14 +24,26 @@ p {
     font-weight: 800;
     line-height: 1.5;
 }
+
+/*Containers*/
+
 .container-fluid {
     padding: 7% 15%;
 }
 
+/*Sections*/
 
+.colored-section {
+    background-color: #FF4C68;
+    color: #FFFFFF;
+}
 
+.white-section {
+    background-color: #FFFFFF;
+}
 
 /*Navigation Bar*/
+
 .navbar {
     padding: 0 0 4.5rem;
 }
@@ -51,19 +64,16 @@ p {
 }
 
 /*Download Buttons*/
+
 .download-btn {
     margin: 5% 3% 5% 0;
 }
 
 /*Title Section*/
-#title {
-    background-color: #ff4c68;
-    text-align: left;
-    color: white;
-}
 
 #title .container-fluid {
-    padding: 3% 15% 17%;
+    padding: 3% 15%;
+    text-align: left;
 }
 
 /*Title Image*/
@@ -87,6 +97,7 @@ p {
 }
 
 /*Feature Section*/
+
 #features {
     background-color: #FFFFFF;
     position: relative;
@@ -112,9 +123,9 @@ p {
 }
 
 /*Testimonial Section*/
+
 #testimonials {
     background-color: #EF8172;
-    color: white;
 }
 
 .testimonial-image {
@@ -141,6 +152,7 @@ p {
 }
 
 /*Pricing Section*/
+
 #pricing {
     padding: 100px;
 }
@@ -155,12 +167,8 @@ p {
     line-height: 1.5;
 }
 
-#cta {
-    color: #FFFFFF;
-    background-color: #ff4c68;
-}
-
 /*Footer Section*/
+
 #footer {
     background-color: #FFFFFF;
 }
