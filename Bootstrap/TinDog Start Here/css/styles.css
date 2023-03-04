@@ -61,11 +61,23 @@ p {
 }
 
 /*Title Image*/
+
 .title-img {
     transform: rotate(25deg);
     width: 60%;
     position: absolute;
     right: 30%;
+}
+
+@media (max-width: 1028px)
+{
+    #title {
+        text-align: center;
+    }
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
 }
 
 /*Feature Section*/
